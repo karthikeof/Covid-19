@@ -2,6 +2,11 @@
 An android application to monitor Covid-19 status globally.
 
 
+![Screenshot](SS1.jpeg)
+![Screenshot](SS2.jpeg)
+![Screenshot](SS3.jpeg)
+![Screenshot](SS4.jpeg)
+
 
 
 
