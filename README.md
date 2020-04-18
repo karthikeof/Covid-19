@@ -2,6 +2,8 @@
 
 An Android application to track Covid Status globally.
 
+![](Covid-19.gif)
+
 
 API Endpoints<br>
 Global<br>
