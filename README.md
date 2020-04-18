@@ -3,7 +3,7 @@ An android application to monitor Covid-19 status globally.
 <br>
 
 <p align="center">
-  <img src="SS1.jpeg" width="350" height="100" alt="accessibility text">
+  <img src="SS1.jpeg" width="250" height="400" alt="accessibility text">
 </p>
 
 
