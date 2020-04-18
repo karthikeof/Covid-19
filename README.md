@@ -4,7 +4,7 @@ An android application to monitor Covid-19 status globally.
 
 
 
-![](Covid-19.gif =250x250)
+![](Covid-19.gif)
 
 <b>API Endpoints</b><br>
 Global <br>
