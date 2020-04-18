@@ -6,6 +6,9 @@ An android application to monitor Covid-19 status globally.
 
 <p float="left">
     <img src="SS1.jpeg" width="350" height="700"  />
+    <br>
+    <br>
+    <br>
   <img src="SS2.jpeg" width="350" height="700"  />
   <img src="SS3.jpeg" width="350" height="700"  /> 
   <img src="SS4.jpeg" width="350" height="700"  />
