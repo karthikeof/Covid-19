@@ -1,11 +1,11 @@
 # Covid-19
 An android application to monitor Covid-19 status globally.
+<br>
 
+<p align="center">
+  <img src="SS1.jpeg" width="350" height="100" alt="accessibility text">
+</p>
 
-![Screenshot](SS1.jpeg)
-![Screenshot](SS2.jpeg)
-![Screenshot](SS3.jpeg)
-![Screenshot](SS4.jpeg)
 
 
 
