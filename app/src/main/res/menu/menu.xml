@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/app_bar_search"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always"
+
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        />
+
+    <item android:id="@+id/SortByActiveCases"
+        android:title="SORT BY Active Cases"
+        />
+    <item android:id="@+id/SortByDeaths"
+        android:title="SORT BY DEATHS" />
+    <item android:id="@+id/SortByRecovered"
+        android:title="SORT BY RECOVERED" />
+    <item android:id="@+id/SortByNewCases"
+        android:title="SORT BY NEW CASES" />
+    <item android:id="@+id/SortByNewDeath"
+        android:title="SORT BY NEW DEATHS" />
+
+
+
+</menu>

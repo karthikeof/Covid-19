@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">COVID-19</string>
+    <string name="Country">GLOBAL</string>
+    <string name="left">CONFIRMED</string>
+    <string name="centre">DEATHS</string>
+    <string name="right">RECOVERED</string>
+    <string name="data1">NEW CASES\u0020\u0020\u0020</string>
+    <string name="data2">NEW DEATHS\u0020\u0020 </string>
+    <string name="data3">ACTIVE CASES</string>
+    <string name="tab_text_1">ALL</string>
+    <string name="tab_text_2">INDIA</string>
+
+</resources>

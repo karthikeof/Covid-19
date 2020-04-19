@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="2dp"
+        android:id = "@+id/cardViews"
+        >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/textCountryState"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="monospace"
+                android:ellipsize="end"
+                android:layout_marginTop="10dp"
+                android:gravity="center_horizontal"
+                android:text="@string/Country"
+                android:textStyle="bold"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textColor="#000000"
+                android:textSize="15dp" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/textCountryState"
+                android:layout_marginTop="10dp"
+                android:background="#D3D1D1"/>
+
+            <TextView
+                android:id="@+id/textConfirmedState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@drawable/ic_track_changes_black_24dp"
+                android:textColor="#000000"
+                android:layout_below="@id/textCountryState"
+                android:fontFamily="monospace"
+                android:layout_marginTop="25dp"
+                android:text="@string/left"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                />
+
+            <TextView
+                android:id="@+id/textDeathState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textCountryState"
+                android:drawableStart="@drawable/ic_track_changes_red_24dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace"
+                android:text="@string/centre"
+                android:textSize="12dp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/textRecoveredState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textCountryState"
+                android:drawableStart="@drawable/ic_track_changes_green_24dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="25dp"
+                android:textSize="12dp"
+                android:textStyle="bold"
+                android:text="@string/right" />
+            <TextView
+                android:id="@+id/textSortedState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:fontFamily="monospace"
+                android:layout_alignParentEnd="true"
+                android:textSize="10dp"
+                android:drawableLeft="@drawable/ic_sort_black_24dp"
+                android:textStyle="bold"
+                />
+
+
+
+            <TextView
+                android:id="@+id/textConfirmedCountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textCountryState"
+                android:fontFamily="monospace"
+                android:paddingStart="15dp"
+                android:layout_marginTop="45dp"
+                android:textSize="12dp"
+                android:text="1000"
+                android:textColor="#000000"
+
+                />
+
+
+            <TextView
+                android:id="@+id/textDeathCountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textCountryState"
+                android:fontFamily="monospace"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="45dp"
+                android:textSize="12dp"
+                android:textColor="#000000"
+                android:text="10" />
+
+
+
+            <TextView
+                android:id="@+id/textRecoveredCountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textCountryState"
+                android:paddingEnd="10dp"
+                android:textColor="#000000"
+                android:fontFamily="monospace"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="45dp"
+                android:textSize="12dp"
+                android:text="900" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/textRecoveredCountState"
+                android:layout_marginTop="10dp"
+                android:background="#D3D1D1"/>
+            <TextView
+                android:id="@+id/NoOfNewCasesState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textRecoveredCountState"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:text="@string/data1"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/NoOfNewCasesCountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textRecoveredCountState"
+                android:textColor="#000000"
+                android:drawableRight="@drawable/ic_trending_up_black_14dp"
+
+                android:textAllCaps="true"
+                android:layout_toEndOf="@id/NoOfNewCasesState"
+                android:layout_marginTop="20dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/NoOfNewDeathsState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:layout_below="@id/textRecoveredCountState"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="45dp"
+                android:fontFamily="monospace"
+                android:text="@string/data2"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+            <TextView
+                android:id="@+id/NoOfNewDeathsCountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:drawableRight="@drawable/ic_timeline_black_24dp"
+
+                android:layout_below="@id/textRecoveredCountState"
+                android:layout_toEndOf="@id/NoOfNewDeathsState"
+                android:layout_marginTop="45dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/NoOfNewRecoveriesState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textRecoveredCountState"
+                android:textColor="#000000"
+                android:textAllCaps="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="70dp"
+                android:fontFamily="monospace"
+                android:text="@string/data3"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/NoOfNewRecoveriescountState"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/textRecoveredCountState"
+                android:textColor="#000000"
+                android:drawableEnd="@drawable/ic_person_black_24dp"
+                android:textAllCaps="true"
+                android:layout_toEndOf="@id/NoOfNewRecoveriesState"
+                android:layout_marginTop="70dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"
+                android:textSize="12dp" />
+
+        </RelativeLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
